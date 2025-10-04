@@ -23,13 +23,13 @@ Our main repository, G-quAI-Pipelines, serves as a central hub that documents an
 - [**G-quAI-Pipelines**](https://github.com/G-quAI/G-quAI-Pipelines) (Hub)  
 From there, you can explore our two specialized repositories:
 
-  1. [**Neutral-Atom-QGARS**](https://github.com/NunoMBatista/Neutral-Atom-QGARS/tree/8ff77d99d68df2e2bd3111e10f5d7c75d3fd69b8)  
+  1. [**Neutral-Atom-QGARS**](https://github.com/NunoMBatista/Neutral-Atom-QGARS/tree/main)  
      This repository contains our implementation of a **Quantum-Guided Autoencoder with a Reservoir Surrogate (QGARS)**. This pipeline uses a classical autoencoder to learn compact image representations, which are then encoded into the parameters of a **Rydberg Hamiltonian** in a neutral-atom quantum reservoir. The reservoir's dynamics generate high-dimensional quantum embeddings that are used by a classical linear classifier for polyp detection.
 
 
 
 
-  3. [**Superconducting-Neural-Network**](https://github.com/NunoMBatista/Superconducting-Neural-Network/tree/12d1f32b2c3acc0cb59336146febada021a05f2c)  
+  3. [**Superconducting-Neural-Network**](https://github.com/NunoMBatista/Superconducting-Neural-Network/tree/main)  
      This repository contains our implementation of a **Quantum Neural Network (QNN)** designed for gate-based superconducting quantum computers. This approach uses a classical autoencoder for dimensionality reduction, followed by the **Flexible Representation of Quantum Images (FRQI)** to encode image features into a quantum state. **A variational quantum circuit** then processes the state to classify the image as containing a polyp or not.
      
 ---
